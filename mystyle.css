@@ -1,8 +1,8 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
-    color: #030A1D;
-    margin: 0;
+    color: #0B0003;
+    margin: 0px 0px;
     padding: 0;
 }
 
@@ -11,7 +11,7 @@ html, body {
     background: url(.//myimages/hero\ bkgrnd.png);
     background-position: center;
     background-size: cover;
-    color: #ffffff;
+    color: #F9F2F3;
 }
 
 .sections {
@@ -19,7 +19,7 @@ html, body {
     display: flex;
     background-color: #252934;
     justify-content: flex-end;
-    margin-right: 150px;
+    padding-right: 150px;
 }
 
 .secktion {
@@ -29,22 +29,28 @@ html, body {
     text-decoration: none;
     list-style: none;
     font-size: 14px;
+    font-weight: 550;
 }
 
 .nav {
     text-decoration: none;
-    color: #ffffff;
+    color: #F9F2F3;
 }
 
 .nav:hover {
-    border: 1px solid #0B142C;
+    border: 1px solid #95233F;
     border-radius: 40px;
-    background-color: antiquewhite;
+    background-color: #F9F2F3;
     color:#95233F;
     cursor: pointer;
     padding: 10px 10px;
     font-weight: bold;
 }
+
+.spann {
+    color:#95233F;
+}
+
 .hero-text {
     text-align: center;
     justify-content: center;
@@ -56,10 +62,14 @@ html, body {
     color: #95233F;
 }
 
+.span:hover {
+    color:#CA919F;
+}
+
 .btn {
     background-color: #0B142C;
     border-radius: 100px;
-    color: #ffffff;
+    color: #F9F2F3;
     font-size: 18px;
     text-align: center;
     width: 190px;
@@ -70,8 +80,9 @@ html, body {
 .btn:hover {
     cursor: pointer;
     color: #95233F;
-    background-color: antiquewhite;
+    background-color: #F9F2F3;
     border-color: #95233F;
+    font-weight: bold;
 }
 
 #features {
@@ -113,6 +124,7 @@ html, body {
 .trust-text {
     text-align: center;
     font-size: 23px;
+    color: #95233F;
 }
 
 .trustees {
@@ -143,13 +155,14 @@ html, body {
 }
 
 .intuit {
-    margin-top: 125px;
     text-align: center;
 }
 
 .stack-text {
+    margin-top: 125px;
     text-align: center;
     font-size: 23px;
+    color: #95233F;
 }
 
 .intuitive {
@@ -163,6 +176,7 @@ html, body {
     flex-direction: row;
     gap: 26px;
     margin-top: 25px;
+    margin-bottom: 41px;
     justify-content: center;
 }
 
@@ -172,8 +186,16 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
+
+.kbox:hover {
+    border: 3px solid #95233F;
+}
+
+/* .borderstack {
+    border: 3px solid #95233F
+} */
 
 .icons {
     align-self: center;
@@ -191,21 +213,18 @@ html, body {
     margin-top: 5px;
 }
 
-.borderstack {
-    border: 3px solid #000000;
-}
-
 #projects {
     min-height: 897px;
 }
 
 .probody {
-    margin-left: 150px;
+    padding-left: 130px;
     padding-top: 47px;
 }
 
 .pro {
     font-size: 23px;
+    color: #95233F;
 }
 
 .proturner {
@@ -216,8 +235,8 @@ html, body {
     display: flex;
     font-size: 18px;
     margin-top: 23px;
+    padding-right: 150px;
     justify-content: flex-end;
-    margin-right: 150px;
     text-decoration: none;
     color: #000000;
 }
@@ -231,7 +250,7 @@ html, body {
     margin-top: 70px;
     display: flex;
     gap: 36px;
-    margin-left: 150px;
+    padding-left: 130px;
 }
 
 .projun {
@@ -282,23 +301,24 @@ html, body {
     width: 300px;
     height: 134px;
     padding-top: 161px;
+    padding-left: 130px;
 }
 
 .article-format {
     width: 670px;
     height: 556px;
-    margin-right: 150px;
     margin-top: 199px;
+    padding-right: 130px;
 }
 
 .isioma {
     display: flex;
     gap: 250px;
-    margin-left: 150px;
 }
 
 .artics {
     font-size: 23px;
+    color: #95233F;
 }
 
 .artica {
@@ -309,18 +329,29 @@ html, body {
     font-size: 18px;
 }
 
-.omakay {
-    display: flex;
-    gap: 150px;
-    margin-top: 90px;
+.partich {
+    text-decoration: none;
+    color: #0B0003;
+}
+
+.partich:hover {
+    color: #95233F;
+    font-weight: bold;
 }
 
 .fullweb {
-    margin-left: 150px;
+    padding-left: 130px;
+}
+
+.omakay {
+    display: flex;
+    gap: 150px;
+    margin-top: 110px;
 }
 
 .fullwebe {
     font-size: 23px;
+    color:#95233F;
 }
 
 .fullweba {
@@ -342,8 +373,8 @@ html, body {
 .fullstock {
     display: flex;
     gap: 25px;
-    margin-left: 150px;
     margin-top: 66px;
+    justify-content: center;
 }
 
 .grike {
@@ -376,36 +407,77 @@ html, body {
     border-radius: 12px;
 }
 
+.fullun:hover {
+    border: 3px solid #95233F
+}
+
+.fulldeux:hover {
+    border: 3px solid #95233F
+} 
+
+.fulltrois:hover {
+    border: 3px solid #95233F
+}
+
+.fullquatre:hover {
+    border: 3px solid #95233F;
+}
+
 #contact {
     min-height: 549px;
     margin-top: -29px;
 }
 
 .ready {
-    margin-left: 150px;
     padding-top: 100px;
+    padding-left: 130px;
 }
 
 .ready h2 {
     font-size: 35px;
 }
 
-.ads {
-    margin-left: 150px;
+.kontact {
+    color:#95233F;
+    text-decoration: none;
+}
+
+.kontact:hover {
+    text-decoration: underline;
+}
+
+.kont {
+    text-decoration: underline;
 }
 
 .adhead {
     font-size: 35px;
 }
 
-.adpad {
+.mail {
     font-size: 18px;
+    text-decoration: none;
+    color: #0B0003;
+}
+
+.mail:hover {
+    color: #95233F;
+    font-weight: bold;
 }
 
 .keynotes {
     font-size: 18px;
     display: flex;
     gap: 60px;
+}
+
+.keylinks {
+    text-decoration: none;
+    color:#0B0003;
+}
+
+.keylinks:hover {
+    color: #95233F;
 }
 
 .key {
@@ -415,8 +487,9 @@ html, body {
 
 .omahlay {
     display: flex;
-    gap: 183px;
+    gap: 200px;
     margin-top: 72px;
+    padding-left: 130px;
 }
 
 footer {
@@ -431,6 +504,7 @@ footer {
     gap: 500px;
     flex-wrap: wrap;
     align-items: center;
+    padding-left: 130px;
 }
 
 .foot {
@@ -440,7 +514,6 @@ footer {
 .footial {
     display: flex;
     flex-direction: row;
-    margin-left: 150px;
 }
 
 .social {
@@ -448,3 +521,31 @@ footer {
     gap: 20px;
     flex-direction: row;
 }
+
+/* body {
+    background-color: aquamarine;
+  }
+
+  @media (min-width: 319px) and (max-width: 480px) {
+    body {
+      background-color: lightsalmon;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      background-color: powderblue;
+    }
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color: limegreen;
+    }
+  }
+
+  @media (min-width: 1601px) {
+    body {
+      background-color: seagreen;
+    }
+  } */
