@@ -90,10 +90,6 @@ html, body {
     justify-content: center;
 }
 
-.ceo {
-    margin-top: 100px;
-}
-
 .kontaken {
     display: flex;
     flex-direction: column;
@@ -101,6 +97,7 @@ html, body {
 }
 
 .ceo {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -218,8 +215,7 @@ html, body {
 }
 
 .probody {
-    padding-left: 130px;
-    padding-top: 47px;
+    padding: 70px 0px 0px 130px;
 }
 
 .pro {
@@ -300,8 +296,7 @@ html, body {
 .article-set {
     width: 300px;
     height: 134px;
-    padding-top: 161px;
-    padding-left: 130px;
+    padding: 161px 0px 0px 130px;
 }
 
 .article-format {
@@ -549,3 +544,305 @@ footer {
       background-color: seagreen;
     }
   } */
+
+  @media (min-width: 319px) and (max-width: 480px) {
+    html, body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+        color: #0B0003;
+        margin: 0px 0px;
+        padding: 0;
+    }
+
+    
+    
+    #hero {
+        min-height: 932px;
+    }
+
+    .hero-text {
+        margin-top: 391px;
+        font-size: 23px;
+    }
+    
+    .btn {
+        font-size: 14px;
+        width: 150px;
+        height: 47px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    .ceo {
+        margin-top: 50px;
+    }
+
+    .intro {
+        font-size: 15px;
+        padding: 0px 59px;
+    }
+
+    .kenny {
+        width: 119px;
+        height: 119px;
+        border-radius: 50%;
+    }
+
+    .truxt {
+        margin-top: 90px;
+    }
+    
+    .trust-text {
+        font-size: 20px;
+    }
+
+    .trustees {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 43px;
+        margin-top: 25px;
+        justify-content: center;
+        padding: 0px 50px;
+        align-items: center;
+    }
+    
+    
+    .soore {
+        width: 120px;
+        height: 67px;
+    }
+    
+    .ipsum {
+        width: 120px;
+        height: 67px;
+    }
+    
+    .setengah {
+        width: 120px;
+        height: 67px;
+    }
+    
+    .bundar {
+        width: 120px;
+        height: 67px;
+    }
+    
+    .stack-text {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    
+    .intuitive {
+        font-size: 29px;
+    }
+    
+    .stack {
+        font-size: 20px;
+    }
+    
+    .solve {
+        font-size: 15px;
+    }
+
+    .stack-solve {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        margin-top: 40px;
+        margin-bottom: 41px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .kbox {
+        width: 314px;
+        height: 226px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .probody {
+        padding: 60px 50px 0px 50px;
+    }
+
+    .explore {
+        font-size: 14px;
+    }
+
+    .xplore {
+        width: 300px;
+        margin-left: 250px;
+        margin-right: 50px;
+    }
+
+    .project-images {
+        padding-left: 50px;
+        gap: 12px;
+    }
+    
+    .projun {
+        width: 120px;
+        height: 150px;
+        border-radius: 12px;
+    }
+    
+    .projdeux {
+        width: 120px;
+        height: 150px;
+        border-radius: 12px;
+        margin-top: -40px;
+    }
+    
+    .projtrois {
+        width: 120px;
+        height: 150px;
+        border-radius: 12px;
+    }
+    
+    .circle-loading {
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .circle {
+        width: 7px;
+        height: 7px;
+  }
+
+    .article-set {
+    width: 209px;
+    height: 134px;
+    padding: 0px 0px 0px 50px;
+}
+
+    .article-format {
+    width: 330px;
+    height: 669px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+    .isioma {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+    .artics {
+    font-size: 20px;
+}
+
+.artica {
+    font-size: 29px;
+}
+
+.artice {
+    font-size: 15px;
+}
+
+.fullweb {
+    padding-left: 50px;
+}
+
+.fullwebe {
+    font-size: 20px;
+}
+
+.fullweba {
+    font-size: 29px;
+}
+
+.fullwebu {
+    font-size: 15px;
+}
+
+.keypad {
+    font-size: 15px;
+    padding: 0px 50px;
+}
+
+.omakay {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.fullun {
+    width: 165px;
+    height: 139px;
+}
+
+.fulldeux {
+    width: 165px;
+    height:139px;
+}
+
+.fulltrois {
+    width: 165px;
+    height: 195px;
+}
+
+.fullquatre {
+    width: 165px;
+    height: 109px;
+}
+
+.ready {
+    padding: 0px 50px;
+}
+
+.ready h2 {
+    font-size: 29px;
+}
+
+.adhead {
+    font-size: 29px;
+}
+
+.mail {
+    font-size: 15px;
+}
+
+.omahlay {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 0px 0px 90px 0px;
+}
+
+.ads {
+    padding-left: 50px;
+}
+
+.keynotes {
+    font-size: 15px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.foocial {
+    padding: 50px 0px 70px 0px;
+    gap: 60px;
+    justify-content: center;
+}
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+
+  }
+
+  @media (min-width: 1201px) and (max-width: 1600px) {
+
+  }
+
+  @media (min-width: 1601px) {
+
+  }
+    
