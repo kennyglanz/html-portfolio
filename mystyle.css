@@ -3,7 +3,7 @@ html, body {
     background-color: #ffffff;
     color: #0B0003;
     margin: 0px 0px;
-    padding: 0;
+    padding: 0px;
 }
 
 #hero {
@@ -337,6 +337,7 @@ html, body {
 
 .fullweb {
     padding-left: 130px;
+    width: 1000px;
 }
 
 .omakay {
@@ -363,7 +364,7 @@ html, body {
     text-align: left;
     display: flex;
     justify-content: flex-end;
-    padding-top: 21px;
+    padding: 21px 200px 0px 0px;
 }
 
 .fullstock {
@@ -863,7 +864,7 @@ footer {
         height: 47px;
         justify-content: center;
         align-items: center;
-        margin-left: 30%;
+        margin-left: 33%;
     }
 
     .ceo {
@@ -893,10 +894,11 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 43px;
+        row-gap: 20px;
+        column-gap: 80px;
         margin-top: 25px;
         justify-content: center;
-        padding: 0px 50px;
+        padding: 0% 50%;
         align-items: center;
     }
     
@@ -928,6 +930,7 @@ footer {
     
     .intuitive {
         font-size: 29px;
+        padding: 0px 85px;
     }
     
     .stack {
@@ -967,8 +970,7 @@ footer {
 
     .xplore {
         width: 300px;
-        margin-left: 250px;
-        margin-right: 50px;
+        margin: 0px 50px 0px 250px;
     }
 
     .project-images {
@@ -1022,6 +1024,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0px;
+    margin-top: -50px;
 }
 
 
@@ -1065,6 +1068,10 @@ footer {
     margin-top: 30px;
 }
 
+.fullstock {
+    display: grid;
+}
+
 .fullun {
     width: 165px;
     height: 139px;
@@ -1086,6 +1093,7 @@ footer {
 }
 
 .ready {
+    margin-top: 100px;
     padding: 0px 50px;
 }
 
@@ -1115,7 +1123,7 @@ footer {
 
 .keynotes {
     font-size: 15px;
-    gap: 40px;
+    gap: 65px;
     justify-content: center;
 }
 
